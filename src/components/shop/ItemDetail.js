@@ -11,7 +11,7 @@ const Loading = () => {
 const Item = ( {item} ) => {
   return (
      
-    <div className="grid card w-96 bg-base-100 shadow-xl  ">
+    <div className="grid card w-80 bg-base-100 shadow-xl  ">
        
        <div className="card-body">
        <img src={item.img} />

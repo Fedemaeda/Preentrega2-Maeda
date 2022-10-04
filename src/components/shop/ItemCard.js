@@ -7,7 +7,7 @@ const ItemCard = ( {id, img, name, price} ) => {
     <Link to={`/shop/item/${id}`}>
       
       
-      <div className="grid card w-96 bg-base-100 shadow-xl  ">
+      <div className="grid card w-80 bg-base-100 shadow-xl  ">
        
        <div className="card-body">
        <img src={img} />
