@@ -10,7 +10,15 @@
   pointer-events: none;
 }
 
+.footer {
+  position:relative;
+  margin-top: 100px;
 
+}
+
+.centerText{
+  text-align: center;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -46,3 +54,4 @@
 h1{
   color: blueviolet;
 }
+
